@@ -1,0 +1,259 @@
+body {
+  font-family: 'Barlow Condensed', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Barlow Condensed', sans-serif;
+}
+
+P{
+  color: #8f8f8f;
+}
+
+.heading-h1 {
+  font-size: 6rem;
+  font-weight: bold;
+  line-height: 1.5;
+  padding-top: 5%;
+}
+
+.heading-h2 {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem
+  line-height: 1.5;
+}
+
+.heading-h3 {
+  font-weight: bold;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+  padding-bottom: 0%;
+}
+
+#title {
+  background-color: #f8f9fa;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* navbar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 2.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 1.2rem;
+}
+
+/* download button */
+.dl-btn {
+  margin: 5% 3% 5% 0;
+}
+
+/* iphone mockup */
+.iphone-mockup {
+  position: relative;
+  margin: auto;
+  left: 30%;
+}
+
+.frame {
+  position: absolute;
+  width: 327.2px;
+  height: 674.4px;
+  background: lightblue;
+  border-radius: 40px;
+}
+
+.earpiece {
+  position: absolute;
+  width: 172px;
+  height: 24px;
+  top: 10px;
+  right: 76.8px;
+  background: lightblue;
+  border-radius: 0px 0px 15px 15px;
+}
+
+/* auto scroll */
+.box-tasvir {
+    overflow: hidden;
+    width: 304px;
+    height: 652px;
+    position: absolute;
+    margin: 0 auto;
+    right: 11px;
+    top: 11px;
+    border-radius: 30px;
+}
+@keyframes masihscroll {
+    0% {transform: translateY(0%);}
+    50% {transform: translateY(-30%);}
+    100% {transform: translateY(-0%);}
+}
+.box-tasvir img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    transition: all 3s;
+    animation-duration: 15s;
+    animation-name: masihscroll;
+    animation-iteration-count: 1000;
+}
+
+/* title image */
+.title-img {
+  width: 304px;
+  border-radius: 30px;
+}
+
+/* features section */
+.feature-box {
+  padding:  10% 4%;
+}
+
+#features {
+  background-color: white;
+}
+
+.feature-title {
+  font-size: 1.5rem
+}
+
+.icon {
+  color: lightblue;
+  margin: 1rem;
+}
+
+.icon:hover {
+  color: blue;
+}
+
+/* testimonial section */
+#testimonials {
+
+  background-color: #f8f9fa;
+}
+
+#press {
+  background-color: #f8f9fa;
+  padding-bottom: 3%;
+}
+
+.testimonial-img {
+  width: 100px;
+  height: auto;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+ol.carousel-indicators li,
+ol.carousel-indicators li.active {
+  background-color: lightblue;
+}
+
+ol.carousel-indicators li.active {
+  background-color: blue;
+}
+
+.carousel-control-prev-icon {
+ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='lightblue' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='lightblue' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+.press-img {
+  width: 10%;
+  margin: 10px 20px 50px;
+}
+
+/* pricing */
+#pricing {
+  padding: 7% 15%;
+}
+
+.pricing-col {
+  padding-top:3%;
+}
+
+.pricing-h2 {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* cta section */
+
+#cta {
+  background-color: #f8f9fa;
+}
+
+.cta-h3 {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* footer section */
+
+.footer-icon {
+  margin: 1%;
+}
+
+@media (max-width: 1200px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-img {
+    position: static;
+  }
+
+  /* iphone mockup */
+  .iphone-mockup {
+    position: static;
+    width: 327.2px;
+    height: 674.4px;
+    right: 50%;
+  }
+
+  .frame {
+    position: absolute;
+    width: 327.2px;
+    height: 674.4px;
+    background-color: lightblue;
+    border-radius: 40px;
+  }
+
+  .earpiece {
+    position: absolute;
+    width: 172px;
+    height: 24px;
+    top: 10px;
+    right: 76.8px;
+    background-color: lightblue;
+    border-radius: 0px 0px 15px 15px;
+  }
+}

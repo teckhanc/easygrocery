@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Easy Grocery</title>
+    <!-- style sheet -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <!-- icons -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+    <!-- google fonts Barlow Condensed -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- google fonts Ubuntu -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+    <section id="title">
+      <!-- nav bar -->
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="">Easy Grocery</a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#footer">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#pricing">Pricing</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="">Career</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#cta">Download</a>
+                </li>
+            </ul>
+            </div>
+        </nav>
+
+      <!-- Title -->
+      <div class="row">
+        <div class="col-lg-6 col-md-6">
+          <h1 class="heading-h1">Grocery app with home delivery option</h1>
+          <button type="button" class="btn btn-secondary btn-lg dl-btn"><i class="fab fa-apple"></i> Download</button>
+          <button type="button" class="btn btn-light btn-lg dl-btn"><i class="fab fa-google-play"></i> Download</button>
+        </div>
+        <div class="col-lg-6 col-md-6">
+          <div class="iphone-mockup">
+            <div class="frame">
+              <div class="box-tasvir">
+                <img class="title-img" src="images/app1x.png" alt="iphone-mockup">
+              </div>
+              <div class="earpiece"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="features">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-4 feature-box">
+            <i class="fas fa-heart fa-4x icon"></i>
+            <h3 class="feature-title">Lorem ipsum dolor</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+          <div class="col-lg-4 feature-box">
+            <i class="fas fa-shipping-fast fa-4x icon"></i>
+            <h3 class="feature-title">Lorem ipsum dolor</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+          <div class="col-lg-4 feature-box">
+            <i class="fas fa-check-circle fa-4x icon"></i>
+            <h3 class="feature-title">Lorem ipsum dolor</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="testimonials">
+      <div id="testimonial-carousel" class="carousel carousel-dark slide" data-ride="false">
+        <ol class="carousel-indicators">
+          <li data-target="#testimonial-carousel" data-slide-to="0" class="active"></li>
+          <li data-target="#testimonial-carousel" data-slide-to="1"></li>
+          <li data-target="#testimonial-carousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active container-fluid">
+            <h2 class="heading-h2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</h2>
+            <img class="testimonial-img" src="images/avatar.png" alt="avatar1">
+            <em>Pebbles, Melbourne</em>
+          </div>
+          <div class="carousel-item container-fluid">
+            <h2 class="heading-h2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</h2>
+            <img class="testimonial-img" src="images/avatar.png" alt="avatar1">
+            <em>Jacob, Sydney</em>
+          </div>
+          <div class="carousel-item container-fluid">
+            <h2 class="heading-h2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</h2>
+            <img class="testimonial-img" src="images/avatar.png" alt="avatar1">
+            <em>John, Perth</em>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+    </div>
+    </section>
+
+    <section id="press">
+      <img class="press-img" src="images/techcrunch.png" alt="tc-logo">
+      <img class="press-img" src="images/tnw.png" alt="tnw-logo">
+      <img class="press-img" src="images/bizinsider.png" alt="biz-insider-logo">
+      <img class="press-img" src="images/mashable.png" alt="mashable-logo">
+    </section>
+
+    <section id="pricing">
+
+      <h2 class="section-heading">Lorem ipsum dolor sit amet</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+      <div class="row">
+        <div class="pricing-col col-lg-4 col-md-6">
+          <div class="card">
+            <div class="card-header">
+              <h3 class="heading-h3">Lite</h3>
+            </div>
+            <div class="card-body">
+              <h2 class="pricing-h2">$ 15 / mth</h2>
+              <p>5 deliveries a month</p>
+              <p>next day delivery</p>
+              <p>single store delivery</p>
+              <button type="button" class="btn btn-lg btn-block btn-outline-primary">Sign Up</button>
+            </div>
+          </div>
+        </div>
+        <div class="pricing-col col-lg-4 col-md-6">
+          <div class="card">
+            <div class="card-header">
+              <h3 class="heading-h3">Standard</h3>
+            </div>
+            <div class="card-body">
+              <h2 class="pricing-h2">$ 50 / mth</h2>
+              <p>10 deliveries a month</p>
+              <p>same day delivery</p>
+              <p>multi stores delivery</p>
+              <button type="button" class="btn btn-lg btn-block btn-outline-primary">Sign Up</button>
+            </div>
+          </div>
+        </div>
+        <div class="pricing-col col-lg-4">
+          <div class="card">
+            <div class="card-header">
+              <h3 class="heading-h3">Frequent</h3>
+            </div>
+            <div class="card-body">
+              <h2 class="pricing-h2">$ 80 / mth</h2>
+              <p>20 deliveries a month</p>
+              <p>same day delivery</p>
+              <p>multi stores delivery</p>
+              <button type="button" class="btn btn-lg btn-block btn-outline-primary">Sign Up</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call to Action -->
+
+    <section id="cta">
+      <div class="container-fluid">
+        <h3 class="cta-h3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h3>
+        <button type="button" class="btn btn-secondary btn-lg dl-btn"><i class="fab fa-apple"></i> Download</button>
+        <button type="button" class="btn btn-light btn-lg dl-btn"><i class="fab fa-google-play"></i> Download</button>
+      </div>
+    </section>
+
+
+    <!-- Footer -->
+
+    <footer id="footer">
+      <div class="container-fluid">
+        <a class="footer-icon" href="www.facebook.com"><i class="fab fa-facebook-f footer-icon"></i></a>
+        <a class="footer-icon" href="www.twitter.com"><i class="fab fa-twitter footer-icon"></i></a>
+        <a class="footer-icon" href="www.instagram.com"><i class="fab fa-instagram footer-icon"></i></a>
+        <a class="footer-icon" href="www.google.com"><i class="far fa-envelope-open footer-icon"></i></a>
+        <p>© Copyright 2021 Easy Grocery</p>
+      </div>
+    </footer>
+
+  </body>
+</html>
