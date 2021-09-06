@@ -1,2 +1,2 @@
-﻿# easygrocery
+﻿# Easy Grocery
 Website Template
