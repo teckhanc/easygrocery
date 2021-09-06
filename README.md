@@ -1,1 +1,2 @@
 ﻿# easygrocery
+Website Template
